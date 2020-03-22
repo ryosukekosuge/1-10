@@ -55,14 +55,32 @@ main{
 @media screen and (max-width: 768px) {
   main{
   height: 100%;
+  width: 100%;
   margin: 50px auto;
 }
 .step-box{
   float: none;
   width: 90%;
   margin: 20px;
-  padding: 10px;
   position: relative;
   border: 1px solid #eee;
+}
+.step-img1{
+  height: 230px;
+  background-image: url(img/flow01.png);
+  background-size: cover;
+  background-position: bottom;
+}
+.step-img2{
+  height: 230px;
+  background-image: url(img/flow02.png);
+  background-size: cover;
+  background-position: bottom;
+}
+.step-img3{
+  height: 230px;
+  background-image: url(img/flow03.png);
+  background-size: cover;
+  background-position: bottom;
 }
 }
